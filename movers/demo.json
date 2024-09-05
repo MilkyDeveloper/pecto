@@ -1,0 +1,201 @@
+{
+	"date": "9/8/2023",
+	"uid": "qZj7qBkqigOlmG7lCI9GkVtLDa83",
+	"content": [
+		{
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb",
+			"term": "<p>SI Units</p>",
+			"uuid": "9ca4638f-9411-4a22-8ce7-b05eb609a50f",
+			"definition": "<p>Internationally agreed upon system of measurements</p>"
+		},
+		{
+			"definition": "<p>Defined unit in a system based on an object or event in the physical world, independent of other units</p>",
+			"term": "<p>Base Unit</p>",
+			"uuid": "fb0fb96c-3240-4413-a7b4-784ea8396e32",
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb"
+		},
+		{
+			"term": "<p>Time</p>",
+			"definition": "<p>Seconds (s)</p>",
+			"uuid": "191cebbd-ebb0-4f04-a2a7-b16e96d0a8cd",
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb"
+		},
+		{
+			"uuid": "007a2bd3-2d52-49e2-86dc-e71977fb2658",
+			"term": "<p>Length</p>",
+			"definition": "<p>Meter (m)</p>",
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb"
+		},
+		{
+			"term": "<p>Mass</p>",
+			"definition": "<p>Kilogram (kg)</p>",
+			"uuid": "d70dc7e2-1409-456a-88e4-0fb79a97737d",
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb"
+		},
+		{
+			"uuid": "1edfa5cb-08a8-45df-a630-fe86cd805f3c",
+			"definition": "<p>Kelvin (K)</p>",
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb",
+			"term": "<p>Temperature</p>"
+		},
+		{
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb",
+			"definition": "<p>Mole (mol)</p>",
+			"term": "<p>Amount of a substance</p>",
+			"uuid": "52bb310e-b495-4cdb-9e1b-8d871cb299df"
+		},
+		{
+			"term": "<p>Electric Current</p>",
+			"uuid": "8c5b62e5-a88e-4249-ab5b-edb5d07750a6",
+			"definition": "<p>Ampere (A)</p>",
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb"
+		},
+		{
+			"uuid": "d4ef0cfd-b236-4d42-9034-d6479dfd2b7d",
+			"definition": "<p>Candela (cd)</p>",
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb",
+			"term": "<p>Luminous Intensity</p>"
+		},
+		{
+			"definition": "<p>Based on the frequency of radiation given off by a cesium-133 atom; SI base unit</p>",
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb",
+			"term": "<p>Second</p>",
+			"uuid": "1a948867-4377-47ca-8087-d241027b7b8c"
+		},
+		{
+			"definition": "<p>The distance light travels in a vacuum in 1 / 299,792,458th of a second; SI base unit</p>",
+			"term": "<p>Meter</p>",
+			"uuid": "ec1a4dd2-a276-47a8-b589-3670f96298b8",
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb"
+		},
+		{
+			"term": "<p>Kilogram</p>",
+			"uuid": "c6fc1524-e6c7-443e-b234-1c9b5c23ed4b",
+			"definition": "<p>Mass of a block of Pt-lr alloy called the IPK (International Prototype KIlogram); SI base unit</p>",
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb"
+		},
+		{
+			"uuid": "f25f6ffd-3401-4aa7-9124-93c205d2e395",
+			"definition": "<p>SI base unit where there is virtually no particle motion or kinetic energy at zero</p>",
+			"term": "<p>Kelvin</p>",
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb"
+		},
+		{
+			"uuid": "29c97b1a-6a17-4666-a5ad-19fe1843e5bb",
+			"definition": "<p>Absolute Zero</p>",
+			"term": "<p>Zero Kelvin</p>",
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb"
+		},
+		{
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb",
+			"definition": "<p>K=C+273</p>",
+			"uuid": "1378cf03-1f2e-48d8-8f9c-c6f162f6e6a6",
+			"term": "<p>Kelvin to Celsius</p>"
+		},
+		{
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb",
+			"term": "<p>Celsius to Kelvin</p>",
+			"definition": "<p>C=K-273</p>",
+			"uuid": "628985a1-aa52-4054-bd1a-ba9254fa8d4a"
+		},
+		{
+			"definition": "<p>Unit that is a defined by a <strong>combination </strong>(NOT factor!) of base units</p>",
+			"term": "<p>Derived Units</p>",
+			"uuid": "f3843cb5-1285-472f-94d0-2414bb08b763",
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb"
+		},
+		{
+			"term": "<p>Volume</p>",
+			"definition": "<p>Measured in cubic meters (m³) or liters (L)</p>",
+			"uuid": "7a13b091-759b-4093-906d-4aad55b725cc",
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb"
+		},
+		{
+			"definition": "<p>Liters</p>",
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb",
+			"term": "<p>m³</p>",
+			"uuid": "68252542-a139-4a5b-89ee-5a242227d3a7"
+		},
+		{
+			"uuid": "10854441-4397-474e-9e4f-5d2e46d68249",
+			"term": "<p>Liters</p>",
+			"definition": "<p>m³</p>",
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb"
+		},
+		{
+			"definition": "<p>Derived unit</p><ul><li><p>g/cm³</p><ul><li><p>Amount of mass per unit volume</p></li></ul></li></ul>",
+			"uuid": "bfe8eb9d-9a3b-42f2-ade9-4e7d11cf7b0b",
+			"term": "<p>Density</p>",
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb"
+		},
+		{
+			"category": "af8e3fdf-8aa8-44b6-be31-c89c2778eedb",
+			"term": "<p>Density Formula</p>",
+			"definition": "<p>d=m/v</p>",
+			"uuid": "15ad0dbe-f13f-4f6b-af0c-b7f416da9d88"
+		},
+		{
+			"uuid": "180a8bae-cb51-4ee6-998f-113d733af03c",
+			"term": "<p>Accuracy</p>",
+			"definition": "<p>How close a measured value is to an accepted value</p>",
+			"category": "bc6fc8cf-a058-4cbf-8fa0-a7284858ed11"
+		},
+		{
+			"definition": "<p>How close a series of measurements are to one another; <strong>repeatability</strong> </p>",
+			"term": "<p>Precision</p>",
+			"uuid": "6799b5d5-9466-4b38-952f-2981b356724c",
+			"category": "bc6fc8cf-a058-4cbf-8fa0-a7284858ed11"
+		},
+		{
+			"category": "bc6fc8cf-a058-4cbf-8fa0-a7284858ed11",
+			"uuid": "1b9cf026-23ad-4cd3-a956-236ac21c9f82",
+			"definition": "<p>(|experimental value - accepted value|/accepted value)*100</p>",
+			"term": "<p>Percent Error Formula</p>"
+		},
+		{
+			"category": "f74723ac-2306-47b1-a6bf-af25da1a9e1c",
+			"definition": "<p>All known digits plus one estimated digit</p>",
+			"term": "<p>Significant Figures</p>",
+			"uuid": "2ff6ffba-1a4d-4a4b-b69a-63b7b524af3a"
+		},
+		{
+			"definition": "<p>Round the answer to the same number of <u>significant figures</u> as the original measurement with the fewest significant figures</p>",
+			"category": "f74723ac-2306-47b1-a6bf-af25da1a9e1c",
+			"uuid": "e8ca688d-f900-4da7-aefc-8af6b96a88f5",
+			"term": "<p>Multiplication and Division</p>"
+		},
+		{
+			"category": "f74723ac-2306-47b1-a6bf-af25da1a9e1c",
+			"term": "<p>Addition and Subtraction</p>",
+			"definition": "<p>Round the answer to the same number of <u>decimal places</u> as the original measurement with the fewest number of decimal places</p>",
+			"uuid": "9481b855-17be-4091-906d-30b8b98e7b4f"
+		}
+	],
+	"published": false,
+	"name": "Chapter 2",
+	"uuid": "0de79608-36fa-4947-8625-dc571d87d97d",
+	"author": "NavtejBhatti",
+	"class": "Honors Chemistry",
+	"superficialAuthor": "NavtejBhatti",
+	"categories": {
+		"af8e3fdf-8aa8-44b6-be31-c89c2778eedb": {
+			"colors": ["#f0fff1", "#fafffa"],
+			"name": "Units"
+		},
+		"bc6fc8cf-a058-4cbf-8fa0-a7284858ed11": {
+			"name": "Accuracy and Precision",
+			"colors": ["#fff4f0", "#fffbfa"]
+		},
+		"f74723ac-2306-47b1-a6bf-af25da1a9e1c": {
+			"name": "Significant Figures",
+			"colors": ["#f8fff0", "#fdfffa"]
+		},
+		"default": {
+			"colors": ["transparent", "transparent"],
+			"name": "Default"
+		}
+	},
+	"pictures": [
+		"https://res.cloudinary.com/brainbok/image/upload/v1499535293/accuracy-vs-precision-with-archery-example.png"
+	]
+}

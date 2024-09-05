@@ -1,0 +1,77 @@
+// @import "../node_modules/bootstrap/scss/functions";
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/variables-dark";
+
+// @import "../node_modules/bootstrap/scss/maps";
+// @import "../node_modules/bootstrap/scss/mixins";
+// @import "../node_modules/bootstrap/scss/root";
+
+// This file is imported by src\themes\_bootstrap.scss!
+
+#packRoot {
+	width: 100vw;
+}
+
+#packContentContainer {
+	padding: 0px;
+	// transition: max-height 1s ease-in-out;
+}
+
+#parentToolbar {
+	pointer-events: none;
+	transform: translateY(-25%);
+}
+
+.navigation {
+	flex-wrap: nowrap !important;
+	overflow-x: auto;
+}
+
+@include media-breakpoint-up(sm) { 
+	#packRoot {
+		width: 80vw;
+	}
+	#parentToolbar {
+		transform: translateY(-47.5%);
+	}
+}
+@include media-breakpoint-up(md) {
+	#packRoot {
+		width: 77.5vw;
+	}
+	#packContentContainer {
+		padding: 1.5em;
+	}
+	#parentToolbar {
+		transform: translateY(-75%);
+	}
+	.flashCard {
+		width: 75%;
+	}
+}
+@include media-breakpoint-up(lg) {
+	#packRoot {
+		width: 70vw
+	}
+}
+@include media-breakpoint-up(xl) {
+	#packRoot {
+		width: 65vw
+	}
+}
+@include media-breakpoint-up(xxl) {
+	#packRoot {
+		width: 60vw
+	}
+}
+
+#packName {
+	font-family: 'Lexend Exa', 'Inter', sans-serif;
+	font-weight: 500;
+}
+
+#bottomToolbar * {
+	backdrop-filter: blur(20px) !important;
+	background-color: rgba(255, 255, 255, 0.7);
+	pointer-events: all;
+}

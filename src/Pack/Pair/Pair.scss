@@ -1,0 +1,16 @@
+// @import "../node_modules/bootstrap/scss/functions";
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/maps";
+// @import "../node_modules/bootstrap/scss/mixins";
+// @import "../node_modules/bootstrap/scss/root";
+
+// Doesn't work for some reason
+// .responsiveRow {
+// 	// 1 Column normally
+// 	@include row-cols(1);
+
+// 	// 2 Columns on larger screens
+// 	@include media-breakpoint-up(sm) {
+// 		@include row-cols(2);
+// 	}
+// }

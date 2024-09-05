@@ -1,0 +1,79 @@
+// Components or features not used should be commented out
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+$font-family-sans-serif:
+	Inter,
+	// Cross-platform generic font family (default user interface font)
+	system-ui,
+	// Safari for macOS and iOS (San Francisco)
+	-apple-system,
+	// Windows
+	'Segoe UI',
+	// Android
+	Roboto,
+	// older macOS and iOS
+	'Helvetica Neue',
+	// Linux
+	'Noto Sans',
+	'Liberation Sans',
+	// Basic web fallback
+	Arial,
+	// Sans serif fallback
+	sans-serif,
+	// Emoji fonts
+	'Apple Color Emoji',
+	'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+// I will explain later why this is also included in _pre.scss trust me bro
+@import '_bs/functions';
+@import '_bs/variables';
+@import '_bs/variables-dark';
+
+@import '_bs/maps';
+@import '_bs/mixins';
+@import '_bs/utilities';
+
+// Depends on the mixins
+@import '../Pack/Pack.scss';
+
+// Layout & components
+@import '_bs/root';
+@import '_bs/reboot';
+@import '_bs/type';
+@import "_bs/images";
+@import '_bs/containers';
+@import '_bs/grid';
+@import '_bs/tables';
+@import '_bs/forms';
+@import '_bs/buttons';
+@import '_bs/transitions';
+@import '_bs/dropdown';
+@import '_bs/button-group';
+@import '_bs/nav';
+@import '_bs/navbar';
+@import '_bs/card';
+@import "_bs/accordion";
+// @import "_bs/breadcrumb";
+// @import "_bs/pagination";
+@import '_bs/badge';
+@import '_bs/alert';
+@import '_bs/progress';
+@import '_bs/list-group';
+@import '_bs/close';
+// @import "_bs/toasts";
+@import '_bs/modal';
+@import '_bs/tooltip';
+@import '_bs/popover';
+// @import "_bs/carousel";
+@import '_bs/spinners';
+// @import "_bs/offcanvas";
+@import '_bs/placeholders';
+
+// Helpers
+@import '_bs/helpers';
+
+// Utilities
+@import '_bs/utilities/api';

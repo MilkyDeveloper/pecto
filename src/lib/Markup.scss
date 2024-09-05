@@ -1,0 +1,53 @@
+blockquote {
+	padding: 0 1em;
+	border-left: 0.25em solid #929292;
+	color: #888888;
+}
+
+.flashCard blockquote {
+	border-left: 0.25em solid #e0e0e0;
+	color: inherit;
+}
+
+ul li p,
+ol li p {
+	display: inline;
+}
+
+ul,
+ol {
+	margin: 0 !important;
+	list-style-position: inside;
+	padding: 0 !important;
+}
+
+.language-markup {
+	background-color: #373737;
+	color: white;
+	padding: 1em;
+	border-radius: 5px;
+	margin: 0;
+	text-align: left;
+}
+
+p > code {
+	background-color: #e0e0e0;
+	padding: 0.25em;
+	border-radius: 5px;
+}
+
+.flashCard a {
+	color: #27acff;
+}
+
+.flashCard a:hover {
+	color: #009dff;
+}
+
+// https://stackoverflow.com/a/31602001
+// We go down a few levels to make sure that the last element of the whole tree has no bottom margin
+.noBottomMargin > span > *:last-child,
+.noBottomMargin > span > *:last-child > *:last-child,
+.noBottomMargin > span > *:last-child > *:last-child * {
+	margin-bottom: 0 !important;
+}

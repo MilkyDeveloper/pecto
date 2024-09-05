@@ -1,0 +1,47 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+#loading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	height: 100vh;
+
+	font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans',
+		'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+		'Segoe UI Symbol', 'Noto Color Emoji';
+
+	#loadingContent {
+		h1 {
+			font-weight: 600;
+			// margin: 0;
+		}
+
+		// From my brothers on https://cssloaders.github.io/
+
+		.loader {
+			width: 48px;
+			height: 48px;
+			border: 5px solid #000000;
+			border-bottom-color: transparent;
+			border-radius: 50%;
+			display: inline-block;
+			box-sizing: border-box;
+			animation: rotation 1s linear infinite;
+		}
+
+		@keyframes rotation {
+			0% {
+				transform: rotate(0deg);
+			}
+			100% {
+				transform: rotate(360deg);
+			}
+		}
+	}
+}

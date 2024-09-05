@@ -1,0 +1,59 @@
+// To deploy:
+// firebase deploy --only firestore:rules
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Make sure the uid of the requesting user matches name of the user
+    // document. The wildcard expression {userId} makes the userId variable
+    // available in rules.
+    match /packs/{userId}/packs/{uuid} {
+      // Checking for published doesn't match our unrestricted query on the
+      // user's homepage, so check for the auth status first,
+      // and if that doesn't work, then check for published (our second scenario)
+      allow read: if (resource == null) || (resource.data.published == true || ((request.auth != null) && resource.data.uid == request.auth.uid));
+      allow update, delete: if (request.auth != null) && resource.data.uid == request.auth.uid;
+      // TODO: secure create
+      allow create: if request.auth != null;
+    }
+
+    // https://fireship.io/lessons/custom-usernames-firebase/
+
+    // Users: uid -> user info
+    match /users/{userId} {
+      allow read;
+      allow create: if isValidUser(userId);
+      allow update: if request.auth.uid == userId;
+    }
+    
+    function isValidUser(userId) {
+      let isOwner = request.auth.uid == userId;
+      let username = request.resource.data.username;
+      let createdValidUsername = existsAfter(/databases/$(database)/documents/usernames/$(username));
+      
+      return isOwner && createdValidUsername;
+    }
+
+    // Usernames: username -> uid
+    match /usernames/{username} {
+      allow read;
+      allow create: if isValidUsername(username);
+    }
+    
+    function isValidUsername(username) {
+      let isOwner = request.auth.uid == request.resource.data.uid;
+      let isValidLength = username.size() >= 3 && username.size() <= 20;
+      // Note to self: firebase is a little shit that wastes my time
+      // escape backslashes by using them twice
+      let isValid = username.matches('^[\\w-]+$');
+      let isValidUserDoc = getAfter(/databases/$(database)/documents/users/$(request.auth.uid)).data.username == username;
+      let isNotRestricted = username != 'tomes';
+
+      return isOwner && isValid && isValidLength && isValidUserDoc && isNotRestricted;
+    }
+    
+    // TODO: add public/private functionality? or keep drafts locally?
+    match /classes/{teacher}/classes/{class} {
+      allow read;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+$dark-2: #2e3440;
+
+@import 'pre';
+
+// $theme-colors: map-merge(
+// 	$theme-colors,
+// 	(
+// 		'dark': $dark,
+// 	)
+// );
+
+@import 'bootstrap';
+
+// body {
+// 	background-color: #242933;
+// }
+
+// TODO: turn all of these into SASS variable overrides
+
+.card,
+.pack,
+.theme-fg-container {
+	background-color: $dark-2;
+	@extend .shadow;
+	.card-body {
+		border-radius: $border-radius;
+	}
+}
+
+.theme-fg {
+	background-color: $dark-2;
+}
+
+.border {
+	border-color: #3b4252;
+}
+
+#navbar {
+	background-color: $dark-2;
+}

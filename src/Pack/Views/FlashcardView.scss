@@ -1,0 +1,46 @@
+.flashCard {
+	min-height: 40vh;
+	padding: 3rem 0;
+}
+
+// Flashcard text
+.fcTextBig {
+	font-size: calc(2rem - 0.25vw);
+}
+
+.fcTextSmall {
+	font-size: calc(1.5rem - 0.25vw);
+}
+
+textarea {
+	resize: none !important;
+}
+
+// @include media-breakpoint-up(sm) { 
+// 	.flashCard {
+// 		width: 95%;
+// 		padding: 40px 20px;
+// 	}
+// }
+// @include media-breakpoint-up(md) {
+// 	.flashCard {
+// 		width: 90%;
+// 		padding: 60px 25px;
+// 	}
+// }
+// @include media-breakpoint-up(lg) {
+// 	.flashCard {
+// 		width: 80%
+// 	}
+// }
+// @include media-breakpoint-up(xl) {
+// 	.flashCard {
+// 		width: 75%;
+// 		padding: 120px 50px;
+// 	}
+// }
+// @include media-breakpoint-up(xxl) {
+// 	.flashCard {
+// 		width: 70%
+// 	}
+// }
